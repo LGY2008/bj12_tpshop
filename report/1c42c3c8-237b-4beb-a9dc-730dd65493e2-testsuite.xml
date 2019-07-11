@@ -1,0 +1,31 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1562777387698" stop="1562777387725">
+  <name>test03_function</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1562777387698" status="broken" stop="1562777387725">
+      <description>
+    :param name: 传入姓名，打印传入的姓名
+    </description>
+      <name>test01</name>
+      <failure>
+        <message>FixtureLookupError: ('name', &lt;FixtureRequest for &lt;Function 'test01'&gt;&gt;)</message>
+        <stack-trace>file F:\PythonItem\Interface\bj12\web\tpshop\scripts\test03_function.py, line 1
+  def test01(name):
+E       fixture 'name' not found
+&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, metadata, monkeypatch, pytestconfig, record_property, record_xml_attribute, record_xml_property, recwarn, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+F:\PythonItem\Interface\bj12\web\tpshop\scripts\test03_function.py:1</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8352-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
